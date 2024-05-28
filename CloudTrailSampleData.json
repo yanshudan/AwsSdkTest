@@ -1,0 +1,68 @@
+{
+  "AdvancedEventSelectors": [
+    {
+      "FieldSelectors": [
+        {
+          "EndsWith": [],
+          "Equals": [
+            "Data"
+          ],
+          "Field": "eventCategory",
+          "NotEndsWith": [],
+          "NotEquals": [],
+          "NotStartsWith": [],
+          "StartsWith": []
+        },
+        {
+          "EndsWith": [],
+          "Equals": [
+            "AWS::S3::Object"
+          ],
+          "Field": "resources.type",
+          "NotEndsWith": [],
+          "NotEquals": [],
+          "NotStartsWith": [],
+          "StartsWith": []
+        }
+      ],
+      "Name": null
+    },
+    {
+      "FieldSelectors": [
+        {
+          "EndsWith": [],
+          "Equals": [
+            "Data"
+          ],
+          "Field": "eventCategory",
+          "NotEndsWith": [],
+          "NotEquals": [],
+          "NotStartsWith": [],
+          "StartsWith": []
+        },
+        {
+          "EndsWith": [],
+          "Equals": [
+            "AWS::DynamoDB::Table"
+          ],
+          "Field": "resources.type",
+          "NotEndsWith": [],
+          "NotEquals": [],
+          "NotStartsWith": [],
+          "StartsWith": []
+        }
+      ],
+      "Name": null
+    }
+  ],
+  "EventSelectors": [],
+  "TrailARN": "arn:aws:cloudtrail:us-east-1:366278358862:trail/hqop17trail",
+  "ResponseMetadata": {
+    "RequestId": "3d5a1a47-6ad5-4395-acdf-9e98f71d265d",
+    "Metadata": {},
+    "ChecksumAlgorithm": 0,
+    "ChecksumValidationStatus": 0
+  },
+  "ContentLength": 348,
+  "HttpStatusCode": 200
+}
