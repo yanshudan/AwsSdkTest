@@ -1,0 +1,22 @@
+{
+    "DestinationId": "b6c7e153b823efbcae26dd48ea3f03aa",
+    "DestinationProperties": {
+        "DestinationArn": "arn:aws:s3:::guarddutybucket4",
+        "KmsKeyArn": "arn:aws:kms:us-east-1:366278358862:key/mrk-991a78a9ed1b433faa17179f45a5b12e"
+    },
+    "DestinationType": {
+        "Value": "S3"
+    },
+    "PublishingFailureStartTimestamp": 0,
+    "Status": {
+        "Value": "PUBLISHING"
+    },
+    "ResponseMetadata": {
+        "RequestId": "9f844602-aa75-4b47-b5b5-d6056ad9097b",
+        "Metadata": {},
+        "ChecksumAlgorithm": 0,
+        "ChecksumValidationStatus": 0
+    },
+    "ContentLength": 301,
+    "HttpStatusCode": 200
+}

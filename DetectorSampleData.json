@@ -1,0 +1,140 @@
+{
+  "CreatedAt": "2023-04-21T09:31:32.709Z",
+  "DataSources": {
+    "CloudTrail": {
+      "Status": {
+        "Value": "ENABLED"
+      }
+    },
+    "DNSLogs": {
+      "Status": {
+        "Value": "ENABLED"
+      }
+    },
+    "FlowLogs": {
+      "Status": {
+        "Value": "ENABLED"
+      }
+    },
+    "Kubernetes": {
+      "AuditLogs": {
+        "Status": {
+          "Value": "ENABLED"
+        }
+      }
+    },
+    "MalwareProtection": {
+      "ScanEc2InstanceWithFindings": {
+        "EbsVolumes": {
+          "Reason": null,
+          "Status": {
+            "Value": "ENABLED"
+          }
+        }
+      },
+      "ServiceRole": "arn:aws:iam::366278358862:role/aws-service-role/malware-protection.guardduty.amazonaws.com/AWSServiceRoleForAmazonGuardDutyMalwareProtection"
+    },
+    "S3Logs": {
+      "Status": {
+        "Value": "ENABLED"
+      }
+    }
+  },
+  "Features": [
+    {
+      "AdditionalConfiguration": [],
+      "Name": {
+        "Value": "RDS_LOGIN_EVENTS"
+      },
+      "Status": {
+        "Value": "ENABLED"
+      },
+      "UpdatedAt": "2023-04-21T09:31:32Z"
+    },
+    {
+      "AdditionalConfiguration": [
+        {
+          "Name": {
+            "Value": "EKS_ADDON_MANAGEMENT"
+          },
+          "Status": {
+            "Value": "DISABLED"
+          },
+          "UpdatedAt": "2023-04-21T09:31:32Z"
+        }
+      ],
+      "Name": {
+        "Value": "EKS_RUNTIME_MONITORING"
+      },
+      "Status": {
+        "Value": "DISABLED"
+      },
+      "UpdatedAt": "2023-04-21T09:31:32Z"
+    },
+    {
+      "AdditionalConfiguration": [],
+      "Name": {
+        "Value": "LAMBDA_NETWORK_LOGS"
+      },
+      "Status": {
+        "Value": "ENABLED"
+      },
+      "UpdatedAt": "2023-04-21T09:31:32Z"
+    },
+    {
+      "AdditionalConfiguration": [
+        {
+          "Name": {
+            "Value": "EKS_ADDON_MANAGEMENT"
+          },
+          "Status": {
+            "Value": "DISABLED"
+          },
+          "UpdatedAt": "2023-04-21T09:31:32Z"
+        },
+        {
+          "Name": {
+            "Value": "ECS_FARGATE_AGENT_MANAGEMENT"
+          },
+          "Status": {
+            "Value": "DISABLED"
+          },
+          "UpdatedAt": "2024-05-29T03:30:11Z"
+        },
+        {
+          "Name": {
+            "Value": "EC2_AGENT_MANAGEMENT"
+          },
+          "Status": {
+            "Value": "DISABLED"
+          },
+          "UpdatedAt": "2024-05-29T03:30:11Z"
+        }
+      ],
+      "Name": {
+        "Value": "RUNTIME_MONITORING"
+      },
+      "Status": {
+        "Value": "DISABLED"
+      },
+      "UpdatedAt": "2024-05-29T03:30:11Z"
+    }
+  ],
+  "FindingPublishingFrequency": {
+    "Value": "SIX_HOURS"
+  },
+  "ServiceRole": "arn:aws:iam::366278358862:role/aws-service-role/guardduty.amazonaws.com/AWSServiceRoleForAmazonGuardDuty",
+  "Status": {
+    "Value": "DISABLED"
+  },
+  "Tags": {},
+  "UpdatedAt": "2024-04-03T05:47:25.346Z",
+  "ResponseMetadata": {
+    "RequestId": "5ea9fd5e-1bc7-41ac-a56a-cb2de4134868",
+    "Metadata": {},
+    "ChecksumAlgorithm": 0,
+    "ChecksumValidationStatus": 0
+  },
+  "ContentLength": 3186,
+  "HttpStatusCode": 200
+}

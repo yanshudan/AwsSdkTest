@@ -1,0 +1,22 @@
+{
+    "Destinations": [
+        {
+            "DestinationId": "b6c7e153b823efbcae26dd48ea3f03aa",
+            "DestinationType": {
+                "Value": "S3"
+            },
+            "Status": {
+                "Value": "PUBLISHING"
+            }
+        }
+    ],
+    "NextToken": null,
+    "ResponseMetadata": {
+        "RequestId": "79de6673-261d-456c-9718-fcb456460529",
+        "Metadata": {},
+        "ChecksumAlgorithm": 0,
+        "ChecksumValidationStatus": 0
+    },
+    "ContentLength": 133,
+    "HttpStatusCode": 200
+}

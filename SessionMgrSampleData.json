@@ -1,0 +1,50 @@
+{
+  "AttachmentsContent": [],
+  "Content": {
+    "schemaVersion": "1.0",
+    "description": "Document to hold regional settings for Session Manager",
+    "sessionType": "Standard_Stream",
+    "inputs": {
+      "s3BucketName": "hqctrl5-test-systems-manager-logs",
+      "s3KeyPrefix": "",
+      "s3EncryptionEnabled": false,
+      "cloudWatchLogGroupName": "hqCloudWatchGroupSydney",
+      "cloudWatchEncryptionEnabled": false,
+      "idleSessionTimeout": "20",
+      "maxSessionDuration": "",
+      "cloudWatchStreamingEnabled": false,
+      "kmsKeyId": "",
+      "runAsEnabled": false,
+      "runAsDefaultUser": "",
+      "shellProfile": {
+        "windows": "",
+        "linux": ""
+      }
+    }
+  },
+  "CreatedDate": "2024-04-22T07:51:56.582Z",
+  "DisplayName": null,
+  "DocumentFormat": {
+    "Value": "JSON"
+  },
+  "DocumentType": {
+    "Value": "Session"
+  },
+  "DocumentVersion": "1",
+  "Name": "SSM-SessionManagerRunShell",
+  "Requires": [],
+  "ReviewStatus": null,
+  "Status": {
+    "Value": "Active"
+  },
+  "StatusInformation": null,
+  "VersionName": null,
+  "ResponseMetadata": {
+    "RequestId": "9c164622-89b5-4fc3-98aa-ddb988e77172",
+    "Metadata": {},
+    "ChecksumAlgorithm": 0,
+    "ChecksumValidationStatus": 0
+  },
+  "ContentLength": 761,
+  "HttpStatusCode": 200
+}

@@ -6,13 +6,13 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "msbuild",
+            "command": "dotnet build",
             "args": [
                 // Ask msbuild to generate full paths for file names.
-                "/property:GenerateFullPaths=true",
-                "/t:build",
+                // "/property:GenerateFullPaths=true",
+                // "/t:build",
                 // Do not generate summary otherwise it leads to duplicate errors in Problems panel
-                "/consoleloggerparameters:NoSummary"
+                // "/consoleloggerparameters:NoSummary"
             ],
             "group": "build",
             "presentation": {
